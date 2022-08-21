@@ -1,0 +1,9 @@
+5 6
+1 2 3 4 5
+
+
+
+dp[i] = min(dp[j]) + (h[i] - h[j])^2
+dp[i] = min(dp[j] + h[j]^2 - 2h[i]h[j] + h[i]^2) + C
+dp[i] = min(dp[j] + h[j]^2 - 2h[i]h[j]) + h[i]^2 + C
+dp[i] = -2h[i]h[j] + (dp[j] + h[j] ^ 2) + h[i]^2 + C

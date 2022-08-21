@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1643075590 source:d:\dt_tin\codeblock\kiemtra\rectarea\demo.cpp
+	<cassert>
+	<cstdio>
+	<vector>
+
+1643119771 source:d:\dt_tin\codeblock\kiemtra\rectarea\main.cpp
+	<bits/stdc++.h>
+
